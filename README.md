@@ -7,3 +7,4 @@ GameHalloween:
 5. Сharacter can kill enemies by jumping on top of them or hitting them from the side;
 6. The character can increase his life by collecting jars.
 
+![alt text](image/1.png "Описание будет тут")
