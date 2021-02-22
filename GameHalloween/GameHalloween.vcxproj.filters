@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ENGINE">
+      <UniqueIdentifier>{3ab90c75-96d7-4845-a573-779a26b0edc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MAP">
+      <UniqueIdentifier>{2ead37c5-90e5-425f-9c6d-723c20049f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\UNIT">
+      <UniqueIdentifier>{5c29f5a9-2320-4b84-95bc-3dc82c3d0639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\AUDIO">
+      <UniqueIdentifier>{d2ea4946-0f74-4e6b-a758-b0bcf7d524dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\INTERACTION">
+      <UniqueIdentifier>{bc20c1ff-8eb8-46ba-9aab-b7f28bde674f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="RunGame.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineUpdate.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineInteraction.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineInput.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineDraw.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineAudio.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Исходные файлы\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjects.cpp">
+      <Filter>Исходные файлы\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingMapObject.cpp">
+      <Filter>Исходные файлы\MAP</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Исходные файлы\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Исходные файлы\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterCamera.cpp">
+      <Filter>Исходные файлы\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterCollision.cpp">
+      <Filter>Исходные файлы\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Исходные файлы\UNIT</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Исходные файлы\AUDIO</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractionAnimations.cpp">
+      <Filter>Исходные файлы\INTERACTION</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFonts.cpp">
+      <Filter>Исходные файлы\ENGINE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractionAnimations.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameHalloween.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
