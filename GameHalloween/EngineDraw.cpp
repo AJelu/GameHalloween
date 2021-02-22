@@ -174,7 +174,7 @@ void Engine::DrawOption()
 	mTextOptionDifficultyGame.setFillColor(Color::Black);
 	mTextOptionDifficultyGame.setPosition(600, 418);
 
-	Text controlMessage("CONTROL  (W):UP  (A):RIGHT  (S):DOWN  (D):LEFT  (T)/(G):KICK",
+	Text controlMessage("CONTROL  (W):UP  (D):RIGHT  (S):DOWN  (A):LEFT  (T)/(G):KICK",
 		mFont, 30);
 	controlMessage.setStyle(Text::Bold);
 	controlMessage.setFillColor(Color::Black);
