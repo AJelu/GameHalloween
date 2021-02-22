@@ -1,6 +1,6 @@
 Simple implementation of 2d engine in C ++ programming language using SFML.
 
-GameHalloween:
+On the basis of the specified engine the game is realized GameHalloween:
 
 1. Single player game;
 2. The game includes four levels;
