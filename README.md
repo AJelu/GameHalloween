@@ -9,7 +9,11 @@ GameHalloween:
 
 Demonstration of game:
 ![alt text](image/1.png "Menu")
+
 ![alt text](image/2.png "Level:1")
+
 ![alt text](image/3.png "Level:2")
+
 ![alt text](image/4.png "Level:3")
+
 ![alt text](image/5.png "Level:4")
