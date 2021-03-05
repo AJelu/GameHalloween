@@ -32,7 +32,7 @@ String TileMap[HEIGHT_MAP]{
 		"D                                                         D",
 		"D                                                         D",
 		"D                                                         D",
-        "D                                                         D",
+        	"D                                                         D",
 		"D                                                         D",
 		"D                                                         D",
 		"D                                                         D",
