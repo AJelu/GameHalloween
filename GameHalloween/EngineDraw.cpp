@@ -46,7 +46,7 @@ void Engine::DrawMapInitialization()
 void Engine::DrawObjectsInitialization()
 {
 	mMap.InitializationLevelsStaticObjects(objectPoint, movingObjectList, 
-											mCharacter.GetCharacterMapLevel());
+						mCharacter.GetCharacterMapLevel());
 	for (objectIt = movingObjectList.begin(); objectIt != movingObjectList.end(); objectIt++)
 		mWindow.draw((*objectIt)->GetSpritePumpkin(mCharacter.GetCharacterMapLevel()));
 }
@@ -54,12 +54,12 @@ void Engine::DrawObjectsInitialization()
 void Engine::DrawUnitsInitialization()
 {
 	enemyPoint->LevelInitializationEnemy(enemiesList, GAME_COMPLEXITY,
-											mCharacter.GetCharacterMapLevel());
+						mCharacter.GetCharacterMapLevel());
 	for (enemyIt = enemiesList.begin(); enemyIt != enemiesList.end(); enemyIt++)
 		if ((*enemyIt)->live == false) {
 			mAnimation.SetUseEnemyDeathAnimationSprite(true);
 			mAnimation.GetSpriteAnimationEnemyDead().setPosition((*enemyIt)->mRect.left,
-																(*enemyIt)->mRect.top);
+								(*enemyIt)->mRect.top);
 		}
 		else mWindow.draw((*enemyIt)->GetSpriteUnit());
 	if (mAnimation.GetStartEnemyDeathAnimationSprite()) 
