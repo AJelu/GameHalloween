@@ -38,9 +38,9 @@ float& Map::MovingMapObject::GetObjectSpeed() { return object_Speed_x; }
 void Map::MovingMapObject::CreationPumpkinAnimations()
 {
 	if (object_Speed_x < 0) spritePumpkin.setTextureRect(IntRect
-							(159 * int(pumpkin_Current_Frame) + 159, 10, 153, 130));
+		(159 * int(pumpkin_Current_Frame) + 159, 10, 153, 130));
 	else spritePumpkin.setTextureRect(IntRect
-							(156 * int(pumpkin_Current_Frame) + 156, 10, -153, 130));	
+		(156 * int(pumpkin_Current_Frame) + 156, 10, -153, 130));	
 }
 
 void Map::MovingMapObject::CreationFramesPumpkin(float& game_time)
@@ -64,7 +64,7 @@ void Map::MovingMapObject::CleanMovingObject(list<Map::MovingMapObject*>& object
 }
 
 void Map::MovingMapObject::CreateMovingObject(const int& level, 
-												list<Map::MovingMapObject *>& object_list)
+						list<Map::MovingMapObject *>& object_list)
 {
 	for (int i = 0; i < ROW; i++) {
 		object_list.push_back(new MovingMapObject(FloatRect(
