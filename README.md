@@ -7,7 +7,8 @@ On the basis of the specified engine the game is realized GameHalloween:
 3. Each level has enemies (ghosts) and moving pumpkins;
 4. The player's goal is to jump on the pumpkins to reach the teleporter to the next level without dying from the enemy;
 5. Player can kill enemies by jumping on top of them or hitting them from the side;
-6. Player can increase his life by collecting jars.
+6. Player can increase his life by collecting jars;
+7. To control, use the movement keys (arrows) or letters (w/a/s/d) as well (t/g) for strikes.
 
 Demonstration of game:
 ![alt text](image/1.png "Menu")
